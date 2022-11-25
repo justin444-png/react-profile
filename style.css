@@ -1,0 +1,45 @@
+h1,
+p {
+  font-family: Lato;
+}
+* {
+  margin: 0;
+}
+.sideNavhed {
+  background-color: red;
+  
+  width:30%;
+}
+.footerHed {
+  height: 60px;
+  background-color: blue;
+}
+.headerHed {
+  height: 60px;
+  background-color: aqua;
+}
+.subdiv{
+  display: flex;
+  height:calc(100vh - 120px);
+}
+
+.mainHed{
+  background-color: orange;
+  flex:1;
+}
+
+@media only screen and (max-width: 600px) {
+  .subdiv{
+    flex-direction: column;
+  }
+  .sideNavhed{
+    width:100% !important;
+  }
+
+  .mobilehight{ 
+    height: 200px;
+    width: 100%;
+  }
+}
+
+
