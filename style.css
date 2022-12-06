@@ -7,8 +7,8 @@ p {
 }
 .sideNavhed {
   background-color: red;
-  
-  width:30%;
+
+  width: 30%;
 }
 .footerHed {
   height: 60px;
@@ -18,28 +18,31 @@ p {
   height: 60px;
   background-color: aqua;
 }
-.subdiv{
+.subdiv {
   display: flex;
-  height:calc(100vh - 120px);
+  height: calc(100vh - 120px);
 }
 
-.mainHed{
+.mainHed {
   background-color: orange;
-  flex:1;
+  flex: 1;
 }
 
 @media only screen and (max-width: 600px) {
-  .subdiv{
+  .subdiv {
     flex-direction: column;
   }
-  .sideNavhed{
-    width:100% !important;
+  .sideNavhed {
+    width: 100% !important;
   }
 
-  .mobilehight{ 
+  .mobilehight {
     height: 200px;
     width: 100%;
   }
 }
-
-
+.list_name  {
+  width: 40%;
+  text-align: center;
+  border: 2px solid blue;
+}
